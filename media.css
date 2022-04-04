@@ -1,1 +1,373 @@
+@media(min-width : 320px) and (max-width : 499px){
 
+    *{
+        margin: 0;
+        padding: 0;
+        direction: ltr;
+        
+        
+        /* line-height: 1.34px; */
+        }
+        body{
+            background-color: rgb(240, 239, 238);
+        }
+        main{
+            display: flex;
+        
+            justify-content: center;
+            align-items: center;
+           /*  padding-bottom: 112px; */
+            padding-top: 20px;
+            
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            margin: 0 auto;
+            
+           /*  padding: 20px 0; */
+        position: relative;
+        width: 280px;
+        }
+        .logo{
+           
+             width:280px ;
+            height: 180px; 
+        }
+        .imgLogo{
+            width: 200px;
+            height: 106px;
+            margin-left: 28px;
+        }
+        .imagen{
+            padding: 0px 0px 16px;
+        }
+        .text{
+            font-family:SFProDisplay-Regular, Helvetica, Arial;
+            font-size: 17px;
+            text-align: center;
+            font-weight: normal;
+            line-height: 32px;
+            width: 280px;
+        }
+        
+        /* -----------loguearse----------- */
+        .loguearse{
+            width: 280px;
+            height: 496px;
+        }
+        .loguin{
+            padding-bottom: 24px;
+            padding-top: 5px;
+            text-align: center;
+            align-items: center;
+            background-color: #fff;
+            border: none;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+            box-sizing: border-box;
+            margin: 10px 0 0;
+            padding: 10px 0 10px;
+            width: 280px;
+           /*  margin: 40px 0px 0px;
+            padding: 10px 0px 24px;
+            width: 396px;
+            height: 349px;
+            border-radius: 10px;
+           background-color:#fff;
+           text-align: center; */
+        } 
+        .correo{
+            width: 250px;
+            height: 50px;
+            margin: 0 auto;
+            padding: 6px 0px;
+          
+            /* background-color:#fff; */
+        }
+        .contrasenia{
+            width: 250px;
+            height: 50px;
+            margin: 0 auto;
+            padding: 6px 0px;
+           /*  background-color:#fff; */
+        }
+        .botonEntrar{
+            width: 250px;
+            height: 30px;
+            margin: 0 auto;
+           /*  background-color:#fff; */
+        }
+        #mail{
+            font-size: 11px;
+            padding: 10px 13px;
+            width:210px ;
+           color: #ccc1c1;
+            border: 1px solid #d2caca;
+            border-radius: 6px;
+        }
+        
+        #pass{
+            font-size: 11px;
+            padding: 10px 13px;
+            width:210px ;
+           color: #d2caca;
+            border: 1px solid #d2caca;
+            border-radius: 6px;
+           
+        }
+        .entrar{
+            width: 250px;
+            height: 35px;
+            padding: 0px 16px;
+            font-size: 15px;
+            background-color: #1877F2;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+        }
+        .entrar:hover{
+            background-color:#166bdb ;
+            cursor: pointer;
+        }
+        .restaurarPass{
+            margin: 10px 0px 0px;
+            font-family: Helvetica,Arial,Sans-serif;
+           
+           /*  background-color:#fff; */
+        }
+        .restaurarPass a{
+            font-size: 11px;
+            color: #1877F2;
+            font-weight: 500;
+            text-decoration: none;
+            
+        }
+        .restaurarPass a:hover{
+            text-decoration: underline;
+        }
+        .linea{
+            align-items: center;
+            border-bottom: 1px solid #dadde1;
+            display: flex;
+            margin: 10px 16px;
+            text-align: center;
+        }
+        .create{
+           padding-top: 6px;
+        }
+        .create a:hover{
+            background-color: #3aa325;
+        }
+        .crear{
+           border: none;
+           border-radius: 6px;
+           font-size: 15px;
+           line-height: 48px;
+           padding: 0 16px;
+           cursor: pointer;
+           display:inline-block;
+           text-decoration: none;
+           background-color: #42B72A;
+           color: #FFF;
+           font-family: Helvetica,Arial,Sans-serif;
+        }
+        
+        .createPage{
+            margin-top: 28px;
+            text-align: center;
+            border-top: none;
+            color: #1c1e21;
+            font-family: SFProText-Regular,  Helvetica,Arial, sans-serif;
+            font-size: 11px;
+            font-weight: normal;
+            padding-top: 0;
+        
+        }
+        .createPage a{
+            cursor: pointer;
+            text-decoration: none;
+            font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+            font-size: 11px;
+            font-weight: 600;
+            color: #1C1E21;
+        }
+        .createPage a:hover{
+            text-decoration: underline;
+        }
+
+}
+
+@media(min-width : 500px) and (max-width : 988px){
+    
+        *{
+            margin: 0;
+            padding: 0;
+            direction: ltr;
+            
+            
+            /* line-height: 1.34px; */
+            }
+            body{
+                background-color: rgb(240, 239, 238);
+            }
+            main{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+               /*  padding-bottom: 112px; */
+                padding-top: 20px;
+                
+            }
+            .container{
+                display: flex;
+                flex-direction: column;
+                margin: 0 auto;    
+            position: relative;
+            width: 400px;
+            }
+            .logo{
+               
+                 width:450px ;
+                height: 200px; 
+            }
+            .imgLogo{
+                width: 301px;
+                height: 106px;
+                
+                margin-left: 60px;
+            }
+            .imagen{
+                padding: 0px 0px 16px;
+            }
+            .text{
+                font-family:SFProDisplay-Regular, Helvetica, Arial;
+                text-align: center;
+                font-size: 25px;
+                font-weight: normal;
+                line-height: 32px;
+                width: 400px;
+            }
+            
+            /* -----------loguearse----------- */
+            .loguearse{
+                width: 396px;
+                height: 496px;
+            }
+            .loguin{
+                padding-bottom: 24px;
+                padding-top: 10px;
+                text-align: center;
+                align-items: center;
+                background-color: #fff;
+                border: none;
+                border-radius: 8px;
+                box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+                box-sizing: border-box;
+                margin: 10px 0 0;
+                padding: 20px 0 28px;
+                width: 396px;
+               /*  margin: 40px 0px 0px;
+                padding: 10px 0px 24px;
+                width: 396px;
+                height: 349px;
+                border-radius: 10px;
+               background-color:#fff;
+               text-align: center; */
+            } 
+            .correo{
+                width: 364px;
+                height: 64px;
+                margin: 0 auto;
+                padding: 6px 0px;
+              
+                /* background-color:#fff; */
+            }
+            .contrasenia{
+                width: 364px;
+                height: 64px;
+                margin: 0 auto;
+                padding: 6px 0px;
+               /*  background-color:#fff; */
+            }
+            .botonEntrar{
+                width: 364px;
+                height: 54px;
+                margin: 0 auto;
+               /*  background-color:#fff; */
+            }
+            #mail{
+                font-size: 17px;
+                padding: 14px 17px;
+                width:330px ;
+               color: #ccc1c1;
+                border: 1px solid #d2caca;
+                border-radius: 6px;
+            }
+            
+            #pass{
+                font-size: 17px;
+                padding: 14px 17px;
+                width:330px ;
+               color: #d2caca;
+                border: 1px solid #d2caca;
+                border-radius: 6px;
+               
+            }
+            .entrar{
+                width: 364px;
+                height: 48px;
+                padding: 0px 16px;
+                font-size: 20px;
+                background-color: #1877F2;
+                color: #fff;
+                border: none;
+                border-radius: 5px;
+            }
+            .entrar:hover{
+                background-color:#166bdb ;
+                cursor: pointer;
+            }
+            .restaurarPass{
+                margin: 16px 0px 0px;
+                font-family: Helvetica,Arial,Sans-serif;
+               
+               /*  background-color:#fff; */
+            }
+            .restaurarPass a{
+                font-size: 14px;
+                color: #1877F2;
+                font-weight: 500;
+                text-decoration: none;
+                
+            }
+            .restaurarPass a:hover{
+                text-decoration: underline;
+            }
+            .linea{
+                align-items: center;
+                border-bottom: 1px solid #dadde1;
+                display: flex;
+                margin: 20px 16px;
+                text-align: center;
+            }
+            .create{
+               padding-top: 6px;
+            }
+            .create a:hover{
+                background-color: #3aa325;
+            }
+            .crear{
+               border: none;
+               border-radius: 6px;
+               font-size: 17px;
+               line-height: 48px;
+               padding: 0 16px;
+               cursor: pointer;
+               display:inline-block;
+               text-decoration: none;
+               background-color: #42B72A;
+               color: #FFF;
+               font-family: Helvetica,Arial,Sans-serif;
+            }
+}
